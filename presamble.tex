@@ -1,0 +1,28 @@
+% Packages
+\usepackage{apacite}
+\usepackage{indentfirst}
+\usepackage{fontspec}
+\usepackage{xunicode}
+\usepackage{xltxtra}
+\usepackage{titlesec}
+\usepackage{enumitem}
+\usepackage[a4paper,left=25mm,right=25mm,top=25mm,bottom=25mm]{geometry}
+
+% FONTS TH Sarabun New
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont{THSarabunNew}[
+    Path=./Utils/Fonts/,
+    Extension=.ttf,
+    BoldFont=* Bold,
+    ItalicFont=* Italic,
+    BoldItalicFont=* BoldItalic
+]
+\XeTeXlinebreaklocale`TH'
+\XeTeXlinebreakskip=0pt plus 1pt
+
+% Formatting
+\setlength{\parindent}{1cm}
+\setlist{  
+  listparindent=\parindent,
+  parsep=0pt,
+}
